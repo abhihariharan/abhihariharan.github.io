@@ -102,12 +102,13 @@ h2{
 }
 
 .bio{
-  background-color: orange;
+  background-color: yellow;
   border-style: solid;
   border-color: black;
   border-width: 2px;
   position: relative;
   bottom: 10px;
+  padding-bottom: 20px;
 
 }
 
@@ -129,4 +130,20 @@ h2{
   position: relative;
   font-size: 30px;
   left: 230px;
+}
+
+#linkedin{
+  position: relative;
+  left: 238px;
+  border-right:
+  border-style: solid;
+  border-color: black;
+  border-width: 30px;
+  margin-right: 20px;
+}
+
+#phone {
+  position: relative;
+  font-size: 30px;
+  left: 320px;
 }
