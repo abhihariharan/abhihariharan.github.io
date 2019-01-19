@@ -1,12 +1,14 @@
 $(document).ready(function() {
 
-$('#obama').on('click', function()
-{
-  $('#obama').stop().fadeOut(1);
-  $('#abhi').stop().fadeIn(1);
-}
+  $("#pictures > div:gt(0)").hide();
 
-
-)
+  setInterval(function() {
+    $('#pictures > div:first')
+      .fadeOut(1000)
+      .next()
+      .fadeIn(1000)
+      .end()
+      .appendTo('#pictures');
+  },  3000);
 
 });
